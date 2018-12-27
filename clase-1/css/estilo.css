@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+.container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* line 14, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+.navbar-expand-lg .navbar-collapse a.nav-link {
+  color: grey;
+}
+
+/* line 18, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+.navbar-expand-lg .navbar-collapse a.nav-link:hover {
+  color: grey;
+  transform: scale(1.1);
+  text-shadow: 1px 0 5px black;
+}
+
+/* line 25, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+li.nav-item {
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* line 32, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+button {
+  border-width: 0px;
+  padding: 0;
+  align-items: center;
+}
+
+/* line 38, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#land {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* line 42, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#land img.img-fluid {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 47, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#land iframe.spotify {
+  position: absolute;
+  top: 84vh;
+  left: 4vw;
+}
+
+/* line 54, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#recital {
+  height: 100vh;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  overflow-y: auto;
+  /* Add vertical scrollbar */
+  position: relative;
+}
+
+/* line 60, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#recital div {
+  position: absolute;
+  top: 0;
+  padding: 80px 0 60px;
+}
+
+/* line 66, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#recital div h1 {
+  color: #f3230f;
+  font-size: 50px;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* line 75, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#recital div p {
+  font-size: 18px;
+  font-family: 'Lato';
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/* line 84, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media {
+  height: 80vh;
+  background-color: #f3230f;
+}
+
+/* line 88, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media div.media {
+  background-color: black;
+  height: 80vh;
+  overflow: hidden;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* line 95, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media div.media .mvideos {
+  width: 100%;
+}
+
+/* line 98, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media div.media .mvideos:hover {
+  position: relative;
+  width: 120%;
+  left: -10%;
+}
+
+/* line 103, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media div.media .mfotos {
+  height: 100%;
+}
+
+/* line 106, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media div.media .mfotos:hover {
+  position: relative;
+  transform: scale(1.2);
+}
+
+/* line 112, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media .col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* line 117, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media .modal-dialog {
+  max-width: 75%;
+}
+
+/* line 121, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#media .close {
+  color: #f8f9fa;
+}
+
+/* line 128, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios div.testimonios {
+  padding: 60px 0 35px;
+  color: #f3230f;
+}
+
+/* line 132, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios div.testimonios em {
+  font-size: 24px;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: italic;
+  line-height: 32px;
+}
+
+/* line 140, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios div.testimonios p {
+  font-size: 28px;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-style: italic;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+/* line 150, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios .form-testimonios {
+  padding: 50px 0 35px;
+  background: #f3230f;
+}
+
+/* line 155, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios .nombre {
+  padding-right: 0;
+}
+
+/* line 159, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#testimonios #testimonio {
+  margin: 5px 0;
+}
+
+/* line 164, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes {
+  padding: 0 20px;
+  background-color: black;
+}
+
+/* line 168, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes .col-12 {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+/* line 174, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes div.integrante {
+  margin-top: 30px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 180, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes h2 {
+  color: white;
+  font-size: 16px;
+  font-family: 'Lato';
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* line 189, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes p {
+  color: white;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: 'Lato';
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+/* line 198, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#integrantes img {
+  width: 100%;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #e6b139;
+}
+
+/* line 207, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#videos {
+  height: 100vh;
+  background: black;
+}
+
+/* line 211, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#videos .container {
+  height: 100vh;
+  width: 80%;
+  padding: 11vh 0 0;
+}
+
+/* line 217, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#videos iframe.sld-video {
+  width: 950px;
+  height: 534px;
+}
+
+/* line 222, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#videos a.carousel-control-prev {
+  height: 40vh;
+  margin: 30vh 0;
+}
+
+/* line 227, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+section#videos a.carousel-control-next {
+  height: 40vh;
+  margin: 30vh 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 236, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  iframe.sld-video {
+    width: 50%;
+  }
+  /* line 241, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#recital div {
+    padding: 20px 0;
+  }
+  /* line 246, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#media {
+    height: 100vh;
+  }
+  /* line 249, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#media div.media {
+    height: 50vh;
+    overflow: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  /* line 255, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#media div.media .mfotos {
+    width: 100%;
+  }
+  /* line 258, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#media div.media .mfotos:hover {
+    position: relative;
+    transform: scale(1.2);
+  }
+  /* line 267, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#integrantes .col-12 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  /* line 273, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#integrantes h4 {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  /* line 279, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#integrantes p {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 5px;
+  }
+  /* line 285, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#integrantes img {
+    border-width: 2px;
+  }
+  /* line 292, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#videos iframe.sld-video {
+    width: 551px;
+    height: 310px;
+  }
+  /* line 297, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#videos .container {
+    height: 100vh;
+    width: 80%;
+    padding: 16vh 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* line 309, C:/Users/Javoc/Javo/Cursos/Coderhouse/Diseñador web/Proyecto Web/scss/estilo.scss */
+  section#videos iframe.sld-video {
+    width: 375px;
+    height: 211px;
+  }
+}
+
+/*# sourceMappingURL=../css/estilo.map */

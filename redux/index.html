@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REDUX</title>
+</head>
+<body>
+
+    <p id:"counter"></p>
+    <button id:"incBtn"></button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.min.js"></script>
+
+    <script type="text/javascript">
+
+        let incBtn=document.getElementById('incBtn')
+        let counter=document.getElementById('counter')
+
+        const INCREMENT='INCREMENT'
+        const DECREMENT='DECREMENT'
+
+        let initialState = {
+            total: 0,
+            profile:{},
+            product:[
+                {id:1, title:'Televisor 43"',price:234.66},
+                {id:2, title:'Televisor 39"',price:187.66},
+                {id:3, title:'Televisor 45"',price:358.66}
+            ],
+            cart:[]
+
+        }
+
+        let store = Redux.createStore(function(state=initialState, action){
+            switch(action.type){
+                case INCREMENT:
+                    state={
+                        ...state,
+                        total: state.total+1
+                    }
+                break
+                case DECREMENT:
+                    state={
+                        ...state,
+                        total: state.total-1
+                    }
+                break
+                case 'ADD_TO_CART':
+                    state={
+                        ...state,
+                        cart:state.cart.concat(action.product)
+                    }
+                break
+            }
+            
+
+            return state
+        })
+
+        store.subscribe(()=>innerHtml())
+
+        store.subscribe(()=> console.log(store.getState()))
+        // store.dispatch({ type:INCREMENT })
+        store.dispatch({
+            type:'ADD_TO_CART',
+            product: {id:3, title:'Televisor 45"',price:358.66}
+            })
+
+    </script>
+    
+</body>
+</html>

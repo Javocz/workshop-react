@@ -1,0 +1,37 @@
+Me paro en la carpeta del proyecto en la consola de git
+
+npm init
+npm install/uninstall nombre-de-la-libreria
+npm i
+npm update
+npm audit
+
+
+versionado smeantinco
+semver.org
+
+16.6.3
+major.minor.patch
+
+
+hacer un css por componente...
+
+
+PROPS Y STATES
+
+las props son datos que SE RECIBEN de afuera - SOLO LAS LEO
+las states son datos que SE COMPARTEN afuera - LAS PUEDO CAMBIAR
+
+constructor(prosp){
+    super(props)
+
+    console.log(props)
+}
+
+
+
+STYLED COMPONENTS
+
+npm install --save styled-components
+
+LAS FUNCIONES PURAS SON LAS QUE AYUDAN AL CONCEPTO DE INMUTABILIDAD Y TRABAJA DENTRO DE SU SCOPE O DE LOS PARAMETROS QUE RECIBE
